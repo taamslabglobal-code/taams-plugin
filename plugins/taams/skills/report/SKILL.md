@@ -1,5 +1,5 @@
 ---
-name: product-report
+name: report
 description: TAAMs 수입식품 품목을 단가·수입량·산지 기상까지 묶어 리포트로 낼 때 쓴다. 여러 TAAMs 도구를 어떤 순서로 부르고 결과를 어떻게 배치할지 정해 준다.
 argument-hint: "[품목명]"
 arguments: product_name
