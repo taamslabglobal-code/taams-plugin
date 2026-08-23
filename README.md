@@ -10,7 +10,7 @@
 
 ```bash
 claude plugin marketplace add taamslabglobal-code/taams-plugin
-claude plugin install korea-food@taams
+claude plugin install taams@taams
 ```
 
 처음 도구를 부를 때 브라우저로 로그인 창이 열린다(OAuth). TAAMs 계정이 없으면
@@ -22,10 +22,10 @@ claude plugin install korea-food@taams
 망고 수입단가 최근 추이 보여줘
 새우 수입사 중 물량 상위는 어디야
 당근 도매경매 낙찰가를 시장별로 비교해줘
-/korea-food:product-report 아보카도
+/taams:product-report 아보카도
 ```
 
-`/korea-food:product-report [품목명]` 은 단가·수입량·산지 기상을 한 리포트로 묶어 준다.
+`/taams:product-report [품목명]` 은 단가·수입량·산지 기상을 한 리포트로 묶어 준다.
 
 ## 알아 둘 것
 
