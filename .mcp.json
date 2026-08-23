@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taams": {
+      "type": "http",
+      "url": "${TAAMS_MCP_URL:-https://mcp.taamsglobal.com/mcp}"
+    }
+  }
+}

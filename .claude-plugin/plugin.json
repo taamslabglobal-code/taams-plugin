@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "taams-korea-food",
+  "displayName": "TAAMs 수입식품·농산물 경매 (Korea Food Trade Data)",
+  "version": "0.1.0",
+  "description": "한국 식품의약품안전처(MFDS) 수입식품 통관 데이터와 전국 32개 도매시장 농수산물 경매 낙찰가를 조회한다 — 수입단가·통관실적·수입사/수출사·시장별 경매시세·산지 기상. 조회 전용 도구 19종. Search South Korea food import customs data (MFDS) and Korean wholesale market auction prices: import unit prices in USD/kg, clearance records, Korean importers, overseas exporters, daily auction prices from 32 wholesale markets including Seoul Garak, and origin weather. 19 read-only tools via a remote MCP server.",
+  "author": {
+    "name": "TAAMs (탬스글로벌)",
+    "email": "support@taamsglobal.com",
+    "url": "https://taamsglobal.com"
+  },
+  "homepage": "https://taamsglobal.com/mcp-guide",
+  "keywords": [
+    "korea",
+    "south-korea",
+    "korea-food-import",
+    "import-customs-data",
+    "customs-clearance",
+    "mfds",
+    "korean-importers",
+    "export-to-korea",
+    "import-price",
+    "korea-wholesale-market",
+    "auction-price",
+    "garak-market",
+    "agricultural-prices",
+    "b2b-trade-data"
+  ]
+}
