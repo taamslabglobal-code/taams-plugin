@@ -10,7 +10,7 @@
 
 ```bash
 claude plugin marketplace add taamslabglobal-code/taams-plugin
-claude plugin install taams-korea-food@taams-plugin
+claude plugin install taams-korea-food@taams
 ```
 
 처음 도구를 부를 때 브라우저로 로그인 창이 열린다(OAuth). TAAMs 계정이 없으면
