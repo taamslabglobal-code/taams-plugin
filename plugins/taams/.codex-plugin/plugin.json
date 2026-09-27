@@ -1,6 +1,6 @@
 {
   "name": "taams",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "한국 수입식품 통관·해외 수출사·국내 수입사·농산물 경매 데이터를 조회하는 TAAMs 플러그인",
   "author": {
     "name": "TAAMs (탬스글로벌)",

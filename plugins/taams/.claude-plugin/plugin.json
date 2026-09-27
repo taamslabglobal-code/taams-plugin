@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "taams",
   "displayName": "TAAMs 수입식품·농산물 경매 (Korea Food Trade Data)",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "한국 식품의약품안전처(MFDS) 수입식품 통관 데이터와 전국 도매시장 농수산물 경매 낙찰가를 조회한다 — 수입단가·통관실적·수입사/수출사 기업정보·시장별 경매시세·산지 기상. Search South Korea food import customs data and Korean wholesale market auction prices through read-only TAAMs tools.",
   "author": {
     "name": "TAAMs (탬스글로벌)",
