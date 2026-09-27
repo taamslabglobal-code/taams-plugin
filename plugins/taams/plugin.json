@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "taams",
+  "version": "0.3.2",
+  "description": "한국 수입식품 통관·해외 수출사·국내 수입사·농산물 경매 데이터를 조회하는 TAAMs 플러그인",
+  "author": {
+    "name": "TAAMs (탬스글로벌)",
+    "email": "support@taamsglobal.com",
+    "url": "https://taamsglobal.com"
+  },
+  "homepage": "https://taamsglobal.com/mcp-guide",
+  "keywords": [
+    "korea-food-import",
+    "customs-clearance",
+    "overseas-exporters",
+    "korean-importers",
+    "auction-price"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "TAAMs 수입식품 데이터",
+        "shortDescription": "한국 통관·수출사·수입사·경매 데이터 조회",
+        "longDescription": "TAAMs 원격 MCP와 업무 스킬을 함께 설치하여 한국 수입식품 통관실적, 해외 수출사 기업정보, 국내 수입사, 수입단가 및 농산물 경매시세를 조회합니다.",
+        "developerName": "TAAMs (탬스글로벌)",
+        "category": "Data & Analytics",
+        "capabilities": ["Read"],
+        "websiteURL": "https://taamsglobal.com",
+        "privacyPolicyURL": "https://taamsglobal.com/privacy",
+        "termsOfServiceURL": "https://taamsglobal.com/terms",
+        "defaultPrompt": [
+          "JBS AUSTRALIA PTY LTD의 대한국 수출현황과 기업정보를 알려줘",
+          "냉동 소고기 한국 수입단가와 주요 공급처를 분석해줘",
+          "가락시장 당근 경매시세를 알려줘"
+        ],
+        "brandColor": "#063B32"
+      }
+    }
+  }
+}

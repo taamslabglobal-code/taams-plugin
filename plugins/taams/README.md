@@ -1,7 +1,7 @@
 # TAAMs — 한국 수입식품 데이터 플러그인
 
 한국 **식품의약품안전처(MFDS) 통관 데이터**를 Claude 안에서 바로 조회한다.
-수입단가·통관실적·수입사/수출사·국내 도매경매 낙찰가·산지 기상까지 **조회 전용** 도구 19종.
+수입단가·통관실적·수입사/수출사·국내 도매경매 낙찰가·산지 기상까지 **조회 전용**으로 제공합니다.
 
 > 설치되는 서버 프로세스는 없다. 이 플러그인은 **원격 MCP 서버**(`mcp.taamsglobal.com`)를
 > 가리키는 설정과 리포트 스킬만 담는다.
@@ -58,7 +58,7 @@ TAAMS_MCP_URL=http://127.0.0.1:8003/mcp claude
 
 TAAMs brings **Korean food-import customs data (MFDS)** into Claude — import prices,
 customs records, importer/exporter profiles, domestic wholesale auction prices, and
-origin weather. **19 read-only tools**, served by a remote MCP server; nothing runs locally.
+origin weather through read-only tools served by a remote MCP server; nothing runs locally.
 
 Ask in English or Korean — product search accepts either. See
 <https://taamsglobal.com/mcp-guide> for accounts, grades, and rate limits.
